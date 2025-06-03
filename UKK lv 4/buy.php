@@ -68,7 +68,7 @@ $conn->query("UPDATE orders SET total_price = $total WHERE id = $order_id");
 <body>
 
     <h2>Total Bayar: Rp<?= number_format($total) ?></h2>
-    <img src="assets/image/logo.png" width="200" alt="Logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/800px-QR_code_for_mobile_English_Wikipedia.svg.png" width="200" alt="Logo">
     <p>Scan QR untuk bayar</p>
 
     <!-- Tombol Kembali -->
