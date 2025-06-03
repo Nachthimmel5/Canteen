@@ -1,0 +1,90 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-title { 
+        font-size: 3rem; 
+    }
+    
+    .navbar-brand { 
+        font-size: 0.9rem; 
+    }
+    
+    .logo-circle { 
+        width: 40px; 
+        height: 40px; 
+    }
+
+    .about-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .section-title h2 {
+        font-size: 2rem;
+    }
+
+    .kantin-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .kantin-logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .cafeteria-name {
+        font-size: 1.5rem;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cafeteria-body {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-title { 
+        font-size: 2.5rem; 
+    }
+    
+    .menu-btn { 
+        padding: 10px 25px; 
+        font-size: 1rem; 
+    }
+
+    .about-section {
+        padding: 60px 0;
+    }
+
+    .main-image {
+        height: 200px;
+    }
+
+    .grid-image {
+        height: 120px;
+    }
+
+    .video-placeholder {
+        height: 200px;
+    }
+
+    .play-button {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+
+    .cafeteria-section {
+        padding: 60px 0;
+    }
+
+    .cafeteria-header {
+        height: 200px;
+    }
+
+    .menu-item-image {
+        height: 120px;
+    }
+}
